@@ -150,6 +150,8 @@ namespace _2
         {
             if (MessageBox.Show("Bạn có chắc muốn xóa tất cả lựa chọn?", "Xác nhận", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
+                comboBox1.SelectedIndex = -1;
+                comboBox2.Items.Clear();
                 richTextBox1.Clear();
                 choosingSeat.Clear();
                 resetCheckedListBox();
