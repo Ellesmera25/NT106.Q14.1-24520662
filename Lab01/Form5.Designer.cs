@@ -99,7 +99,7 @@
             button1.TabIndex = 11;
             button1.Text = "Thêm";
             button1.UseVisualStyleBackColor = true;
-
+            button1.Click += button1_Click;
             // 
             // button2
             // 
